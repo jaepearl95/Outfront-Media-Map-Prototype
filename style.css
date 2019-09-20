@@ -5,58 +5,104 @@ background: #C9BFAD;
 
 }
 
-/* object {
-
-    width: 50%;
-    height: 50%;
-
-} */
-
-#geo {
 
 
-   position: absolute;
-   z-index: 0;
 
-}
-
-
-#red-line {
-
-   width: 40%;
-   /* height: 40%; */
-   position: relative;
-   left:290px;
-   bottom: 10px;
-   
-   z-index: 2;
-
-}
 
 #blue-line {
 
-    width: 40%;
-    /* height: 40%; */
-    position: relative;
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+
    
-    right: 345px;
-    bottom: 30px;
-    
-    z-index: 1;
+}
+
+
+ #red-line {
+
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+   
  
  }
-
 
  #orange-line {
 
-    width: 40%;
-    /* height: 40%; */
-    position: relative;
-   
- 
-    bottom: 715px;
-    left: 275px;
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+
     
-    z-index: 1;
  
- }
+}
+
+
+#yellow-line {
+
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+
+    
+ 
+}
+
+
+#green-line {
+
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+
+    
+ 
+}
+
+
+#purple-line {
+
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+    
+ 
+}
+
+
+#brown-line {
+
+
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+    
+ 
+}
+
+#red-line {
+
+   stroke-dasharray: 1007;
+   stroke-dashoffset: 5000;
+   animation: draw 3000ms ease-in-out 4ms forwards;
+   animation-iteration-count: 300;
+    
+ 
+}
+
+
+@keyframes draw { 
+
+  from
+    {stroke-dashoffset: 1000 }
+
+  to
+    {stroke-dashoffset: 0}
