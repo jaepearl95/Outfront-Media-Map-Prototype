@@ -3,4 +3,6 @@
 ## Summary
  Subway map highlighting ethnic cultural institutions throughout the city
  
-![](/map.png 50%)
+ 
+ <img src = "/map.png" 50%>
+![](/map.png)
